@@ -1,13 +1,13 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
+baseurl: "/sub-directory"
 url: "https://rudderwoo.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
   title: Type Theme
-  avatar: assets/img/avatar.png
-  favicon: assets/favicon.ico
+  avatar:
+  favicon:
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
 
