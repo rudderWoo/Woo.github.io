@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: ""
+baseurl: "Woo.github.io"
 url: "https://rudderwoo.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
