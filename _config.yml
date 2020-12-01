@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/sub-directory"
+baseurl: ""
 url: "https://rudderwoo.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -13,7 +13,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ssincididunt ut labore et dolore magna aliqua.</p>
 
      <p>Remove all header text in <code>_config.yml</code> to disable this feature. test</p>
   header_text_feature_image:
