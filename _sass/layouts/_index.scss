@@ -16,12 +16,16 @@
   color: $header-desc-link-color
 }
 // Post listing
-.posts {
-  width: 800px;
+.home{
+  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
+}
+
+.posts {
+
   .post-teaser {
     // @extend %padding-regular;
-    padding : 24px;
     margin-bottom: 0;
     display: inline-block;
     background-size: $feature-image-size;
@@ -29,6 +33,10 @@
     
     p a {
       @extend .body-link;
+    }
+
+    h2 { 
+      margin-bottom: 0.2rem;
     }
   }
   .excerpt {
@@ -47,5 +55,11 @@
   text-align: center;
   @media (max-width: 600px) {
     padding: $padding-small;
+  }
+}
+
+@media (max-width: 670px) {
+  .home {
+    width: 88%;
   }
 }
