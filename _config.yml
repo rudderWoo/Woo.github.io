@@ -5,7 +5,7 @@ url: "https://rudderwoo.github.io/"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
+  title: rudderWoo
   avatar:
   favicon:
   gravatar: # Email MD5 hash

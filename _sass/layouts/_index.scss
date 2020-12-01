@@ -17,13 +17,16 @@
 }
 // Post listing
 .posts {
+  width: 800px;
+  margin: 0 auto;
   .post-teaser {
-    @extend %padding-regular;
-    width: 100%;
+    // @extend %padding-regular;
+    padding : 24px;
     margin-bottom: 0;
     display: inline-block;
     background-size: $feature-image-size;
     border-bottom: 1px solid $border-color;
+    
     p a {
       @extend .body-link;
     }
