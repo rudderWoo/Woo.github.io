@@ -30,6 +30,7 @@
     display: inline-block;
     background-size: $feature-image-size;
     border-bottom: 1px solid $border-color;
+    width: 100%;
     
     p a {
       @extend .body-link;

@@ -83,3 +83,10 @@ plugins: [jekyll-paginate]
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  works:
+    output: true
+    title:
+    sub_title:
+    tag:
