@@ -84,9 +84,13 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+# collections:
+#   works:
+#     output: true
+#     title:
+#     sub_title:
+#     tag:
+
 collections:
   works:
     output: true
-    title:
-    sub_title:
-    tag:
