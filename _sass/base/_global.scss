@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -32,13 +34,14 @@ html {
   background: $selection-color;
 }
 body {
-  color: $text-color;
+  color: $text-primary;
   font-family: $font-family-main;
   font-size: $font-size;
   word-wrap: break-word;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
+  font-weight: 700;
   line-height: 1.2;
   margin: 0.67em 0;
   a {
@@ -138,4 +141,8 @@ img[align=left] {
 }
 img[align=right] {
   margin-left: 3%;
+}
+
+.divider {
+  border-bottom: 1px solid $border-color;
 }

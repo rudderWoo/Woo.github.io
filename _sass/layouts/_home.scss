@@ -1,0 +1,187 @@
+
+.home-wrapper {
+    padding-top: 32px;
+
+    h4 {
+        font-size: 22px;
+        color: $primary-color;
+        margin-bottom: 24px;
+    }
+
+    .title {
+        font-size : 32px;
+        line-height: 47px;
+        margin-bottom: 8px !important;
+        word-break: keep-all;
+    }
+
+    span {
+        color: $primary-color;
+    }
+
+    .sub-title {
+        color : $text-secondary;
+        font-size: 22px;
+        margin-bottom: 32px;
+    }
+
+    .intro {
+        margin-bottom: 64px;
+        
+        h5 {
+            font-size: 22px;
+            color: $text-primary;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            color: $text-secondary;
+            font-size: 16px;
+            line-height: 40px;
+
+            li {
+                list-style: none;
+            }
+
+            li:before {
+                content: '■'; 
+                vertical-align: middle;
+                display: inline-block;
+                margin-top: -3px;
+                font-size: 6px;
+                margin-right: 12px;
+            }
+        }
+
+        & > div {
+            border-bottom: 1px solid $border-color;
+            padding: 24px 0;
+
+            // &:last-child {
+            //     border-bottom: none;
+            // }
+        }
+    }
+
+
+    .history {
+        margin-top: 32px;
+        width: 100%;
+        margin-bottom: 88px;
+
+        .card-wrapper {
+            width: 100%;
+
+            .card {
+                background-color: #FAFAFA;
+                border-radius: 16px;
+                width: 100%;
+                padding: 28px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 16px;
+
+                .company {
+                    flex: 1;
+
+                    .name {
+                        margin-bottom: 8px;
+                        color: $text-primary;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                    
+                    .duration {
+                        margin: 0;
+                        color: $text-secondary;
+                        font-size: 18px;
+                    }
+                }
+
+                .role {
+                    flex: 1.2;
+
+                    .role-name {
+                        font-size : 20px;
+                        color: $primary-color;
+                        margin-bottom: 8px;
+                    }
+
+                    .info {
+                        color: $text-primary;
+                        font-size: 16px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .skill {
+        margin-top: 32px;
+        width: 100%;
+        margin-bottom: 88px;
+
+        .skill-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+
+            & > div {
+                background-color: $input-primary;
+                color : $text-secondary;
+                font-size : 18px;
+                padding: 8px 16px;
+                display: inline;
+                border-radius: 16px;
+                margin-right: 16px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .CTA {
+        padding-top: 64px;
+        padding-bottom: 106px;
+        text-align: center;
+
+        h3 {
+            color: $text-primary;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        p {
+            color: $text-secondary;
+            font-size: 24px;
+            margin-bottom: 56px;
+        }
+
+        a {
+            background-color: $primary-color;
+            border-radius: 16px;
+            padding: 24px 40px;
+            color: #ffffff;
+            box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+            font-weight: 500;
+            font-size: 22px;
+
+            &:hover {
+                background-color: #2958FF;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 670px) {
+    .history .card {
+        flex-direction: column;
+        align-items: flex-start !important;
+
+        &:first-child .company {
+            margin-bottom: 16px;
+        }
+    }
+}

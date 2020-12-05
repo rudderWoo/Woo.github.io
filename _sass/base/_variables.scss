@@ -1,6 +1,6 @@
 // Typography
-$font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif !default;
-$font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif !default;
+$font-family-main: 'Noto Sans KR';
+$font-family-headings: 'Noto Sans KR';
 $font-size: 1.10em !default;
 
 // Padding
@@ -35,3 +35,10 @@ $feature-image-size: cover !default; // options include "cover", "contain", "aut
 $header-desc-background-color: #1ABC9C !default;
 $header-desc-text-color: #FFF !default;
 $header-desc-link-color: #02453D !default;
+
+
+$primary-color: #5177FF !default;
+$text-primary: #121214 !default;
+$text-secondary: #71717D !default;
+$border-color: #E4E4EB !default;
+$input-primary: #EBECF1 !default;

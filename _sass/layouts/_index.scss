@@ -16,7 +16,7 @@
   color: $header-desc-link-color
 }
 // Post listing
-.home{
+.container{
   width: 80%;
   max-width: 800px;
   margin: 0 auto;
@@ -60,7 +60,17 @@
 }
 
 @media (max-width: 670px) {
-  .home {
+  .container {
     width: 88%;
   }
 }
+
+
+// .container {
+//   width: 80%;
+//   max-width: 800px;
+
+//   h3 {
+//       font-size : 32px;
+//   }
+// }
