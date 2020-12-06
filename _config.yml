@@ -5,18 +5,18 @@ url: "https://rudderwoo.github.io/"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: rudderWoo
+  title: 프로덕트 디자이너 우종규입니다.
   avatar:
   favicon:
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "근거있는 디자인으로 문제를 해결합니다." # used by search engines
 
   # Header and footer text
   header_text: >
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ssincididunt ut labore et dolore magna aliqua.</p>
 
      <p>Remove all header text in <code>_config.yml</code> to disable this feature. test</p>
-  header_text_feature_image:
+  header_text_feature_image: "/assets/img/main_thumbnail.png"
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
@@ -83,13 +83,6 @@ plugins: [jekyll-paginate]
 exclude:
   - Gemfile
   - Gemfile.lock
-
-# collections:
-#   works:
-#     output: true
-#     title:
-#     sub_title:
-#     tag:
 
 collections:
   works:

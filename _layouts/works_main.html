@@ -3,24 +3,27 @@ layout: default
 ---
 
 
-<div class="container">
-    <div class="posts">
+<div class="container works-wrapper">
+    <h3 class="page-title">Works</h3>
+    <p class="page-subtitle">보고, 배우고, 느낀 것을 공유합니다.</p>
+    <div class="card-wrapper">
       {% for work in site.works %}
-      <div class="post-teaser">
-        <header>
-          <h3>
-            <a class="post-link" href="{{ work.url | relative_url }}">
-              {{ work.title }}
-            </a>
-          </h3>
-        </header>
-        <div class="excerpt">
-          {{ work.excerpt }}
-          <a class="button" href="{{ work.url | relative_url }}">
-            {{ site.theme_settings.str_continue_reading }}
-          </a>
+      <a class="card" href="{{ work.url | relative_url }}">
+        <div class= "work-thumbnail" style="background-image: url('{{ site.baseurl }}/{{ work.thumbnail }}');">
         </div>
-      </div>
+        <div class= "work-info">
+          <h3 class="work-card-title">{{ work.title }}</h3>
+          <p class="work-card-subtitle">{{ work.subtitle }}</p>
+          <p class="work-card-descripition">
+            {{ work.content | truncatewords: 20 | strip_html }}
+          </p>
+          <ul class="work-card-tags">
+            {% for tags in work.tags %}
+              <li> #{{ tags }} </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </a>
       {% endfor %}
     </div>
   
