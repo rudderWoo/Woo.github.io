@@ -124,7 +124,7 @@ hr {
   margin: 1em 0;
 }
 a {
-  color: $link-color;
+  color: $text-primary;
   text-decoration: none;
 }
 .nav {
@@ -145,4 +145,16 @@ img[align=right] {
 
 .divider {
   border-bottom: 1px solid $border-color;
+}
+
+.page-title {
+  color: $text-primary;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.page-subtitle {
+  color: $text-secondary;
+  text-align: center;
+  margin-bottom: 48px;
 }

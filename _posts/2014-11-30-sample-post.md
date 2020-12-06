@@ -2,6 +2,7 @@
 layout: post
 title: 포스팅 하기
 tags: [test, sample]
+hidden: true
 ---
 이건 테스트를 위한 내용이다. Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam 
 

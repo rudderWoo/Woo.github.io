@@ -22,28 +22,6 @@
   margin: 0 auto;
 }
 
-.posts {
-
-  .post-teaser {
-    // @extend %padding-regular;
-    margin-bottom: 0;
-    display: inline-block;
-    background-size: $feature-image-size;
-    border-bottom: 1px solid $border-color;
-    width: 100%;
-    
-    p a {
-      @extend .body-link;
-    }
-
-    h2 { 
-      margin-bottom: 0.2rem;
-    }
-  }
-  .excerpt {
-    margin-top: 1em;
-  }
-}
 // Pagination
 .pagination .button {
   margin: 0 1.5em;

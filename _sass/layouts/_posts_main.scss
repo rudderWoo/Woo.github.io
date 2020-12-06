@@ -1,0 +1,106 @@
+
+
+.posts-wrapper {
+    padding: 32px 0;
+
+    .posts {
+
+        .post-teaser {
+          // @extend %padding-regular;
+            margin-bottom: 0;
+            display: flex;
+            background-size: $feature-image-size;
+            width: 100%;
+            border: 1px solid $border-color;
+            border-radius: 16px;
+            margin-bottom: 16px;
+            transition: box-shadow .3s, transform .3s;
+            overflow: hidden;
+
+
+            &:hover {
+                box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+                transform: translateY(-2px);
+            }
+
+            .post-thumbnail {
+                flex: 1;
+                background-size: cover;
+                background-position: center center;
+
+                img {
+                    height: auto;
+                }
+            }
+
+            .post-info {
+                flex: 2.2;
+                padding: 32px;
+
+                .post-card-title {
+                    font-size: 24px;
+                    margin-top: 0px;
+                    margin-bottom: 8px;
+                }
+
+                .post-card-subtitle {
+                    color: $text-secondary;
+                    font-size: 16px;
+                    margin-bottom: 12px;
+                }
+
+                .post-card-descripition {
+                    margin-top: 12px;
+                    color: $text-secondary;
+                    font-size: 14px;
+                    margin-bottom: 16px;
+                }
+                
+                .card-footer {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .post-card-tags {
+                    list-style: none;
+                    display: flex;
+                    margin-bottom: 0;
+
+                    li {
+                        margin-right: 16px;
+                        color: $primary-color;
+                        background-color: #F4F5FF;
+                        padding: 4px 8px;
+                        border-radius: 16px;
+                        font-size: 14px;
+                    }
+                }
+
+                .date {
+                    font-style: italic;
+                    color: $text-secondary;
+                    font-size: 14px;
+                }
+            }
+        }
+        .excerpt {
+          margin-top: 1em;
+        }
+      }    
+}
+
+@media (max-width: 670px) {
+    .post-teaser {
+        flex-direction: column;
+
+        .post-thumbnail {
+            flex: auto !important;
+            height: 220px;
+        }
+
+        .post-info {
+            padding: 16px !important;
+        }
+    }
+}

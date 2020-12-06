@@ -1,5 +1,6 @@
 ---
-layout: work_main
+layout: works_main
 title: Works
 permalink: /works/
+hidden: true
 ---

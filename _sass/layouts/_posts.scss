@@ -47,7 +47,8 @@ header {
   }
   header {
     color: $feature-image-text-color;
-    background-size: $feature-image-size;
+    background-size: cover;
+    background-position: center center;
     margin-bottom: 0;
     height: 320px;
     margin-bottom: 56px;

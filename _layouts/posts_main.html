@@ -2,27 +2,33 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container posts-wrapper">
+  <h3 class="page-title">Posts</h3>
+  <p class="page-subtitle">보고, 배우고, 느낀 것을 공유합니다.</p>
   <div class="posts">
     {% for post in site.posts %}
-    <div class="post-teaser">
-      <header>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title }}
-          </a>
-        </h3>
-        <p class="meta">
-          {{ post.date | date: "%B %-d, %Y" }}
-        </p>
-      </header>
-      <div class="excerpt">
-        {{ post.excerpt }}
-        <a class="button" href="{{ post.url | relative_url }}">
-          {{ site.theme_settings.str_continue_reading }}
-        </a>
+    {% if post.hidden == false %}
+    <a class="post-teaser" href="{{ post.url | relative_url }}">
+      <div class= "post-thumbnail" style="background-image: url('{{ site.baseurl }}/{{ post.feature-img }}');">
       </div>
-    </div>
+      <div class= "post-info">
+        <h3 class="post-card-title">{{ post.title }}</h3>
+        <p class="post-card-subtitle">{{ post.subtitle }}</p>
+        <div class="divider"></div>
+        <p class="post-card-descripition">
+          {{ post.content | truncatewords: 16 | strip_html }}
+        </p>
+        <div class="card-footer">
+          <ul class="post-card-tags">
+            {% for tags in post.tags %}
+              <li> #{{ tags }} </li>
+            {% endfor %}
+          </ul>
+          <div class="date">{{ post.date | date: "%B %-d, %Y" }}</div>
+        </div>
+      </div>
+    </a>
+    {% endif %}
     {% endfor %}
   </div>
 
