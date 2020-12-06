@@ -14,21 +14,17 @@
 		</h1>
 	</div>
 	<nav class="site-nav">
+		{% assign current = page.title %}
 		<ul>
-			{% if site.theme_settings.site_navigation_sort %}
-				{% assign site_pages = site.pages | sort: site.theme_settings.site_navigation_sort %}
-			{% else %}
-				{% assign site_pages = site.pages %}
-			{% endif %}
-			{% for page in site_pages %}
-			{% if page.title and page.hide != true %}
 			<li>
-				<a class="page-link" href="{{ page.url | relative_url }}">
-					{{ page.title }}
-				</a>
+				<a href="{{ site.baseurl }}/works" {% if current == "Works" %} class="active" {% endif %}>Works</a>
 			</li>
-			{% endif %}
-			{% endfor %}
+			<li>
+				<a href="{{ site.baseurl }}/posts" {% if current == "Posts" %} class="active" {% endif %}>Posts</a>
+			</li>
+			<li>
+				<a href="{{ site.baseurl }}/about" {% if current == "About" %} class="active" {% endif %} >About</a>
+			</li>
 			<!-- Social icons from Font Awesome, if enabled  -->
 			<!-- {% include icons.html %} -->
 
