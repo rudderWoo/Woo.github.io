@@ -27,11 +27,9 @@
     font-weight: bold;
     font-size: 1em;
     line-height: 1.5;
-    
-    img {
-      height: 34px;
-      margin-left: 4px;
-    }
+    height: 32px;
+    width: 137px;
+    background-size: cover;
   }
 
   .site-nav {
@@ -64,7 +62,7 @@
       & > a {
         margin-bottom: -1px;
         height: 100%;
-        width:80px;
+        width: 72px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -124,5 +122,9 @@
 @media (max-width: 670px) {
   .site-header {
     width: 88%;
+  }
+
+  .site-title {
+    width: 32px !important;
   }
 }
