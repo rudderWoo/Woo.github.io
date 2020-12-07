@@ -25,7 +25,7 @@
 
     .intro-description {
         color: $primary-color;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
         margin-bottom: 24px !important;
     }
@@ -33,7 +33,7 @@
     ul {
         margin-top: 24px;
         color: $text-secondary;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 40px;
         margin-bottom: 64px;
 
@@ -49,5 +49,11 @@
             font-size: 4px;
             margin-right: 12px;
         }
+    }
+}
+
+@media (max-width: 670px) {
+    .main-img {
+        height : 200px !important;
     }
 }
