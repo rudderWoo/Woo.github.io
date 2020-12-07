@@ -134,7 +134,7 @@ a {
 }
 // Responsive media
 iframe, img, embed, object, video {
-  max-width: 100%;
+  width: 100%;
 }
 img[align=left] {
   margin-right: 3%;
@@ -157,4 +157,10 @@ img[align=right] {
   color: $text-secondary;
   text-align: center;
   margin-bottom: 48px;
+}
+
+figcaption {
+  color: $text-secondary;
+  font-size: 16px;
+  text-align: center;
 }
