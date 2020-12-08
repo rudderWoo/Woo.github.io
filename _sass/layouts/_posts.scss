@@ -109,6 +109,16 @@ header {
       font-style: italic;
       color: #ffffff !important;
     }
+
+    .platform {
+      color: $text-primary;
+      background-color: #ffffff;
+      display: inline;
+      padding: 6px 12px;
+      width: fit-content;
+      border-radius: 24px;
+      margin-right: 16px;
+    }
   }
 }
 

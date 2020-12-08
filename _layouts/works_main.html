@@ -9,7 +9,7 @@ layout: default
     <div class="card-wrapper">
       {% for work in site.works %}
       <a class="card" href="{{ work.url | relative_url }}">
-        <div class= "work-thumbnail" style="background-image: url('{{ site.baseurl }}/{{ work.thumbnail }}');">
+        <div class= "work-thumbnail" style="background-image: url('{{ site.baseurl }}/{{ work.feature-img }}');">
         </div>
         <div class= "work-info">
           <h3 class="work-card-title">{{ work.title }}</h3>

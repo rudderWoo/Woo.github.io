@@ -1,8 +1,9 @@
 ---
-layout : default
+layout : work
 title: "[프로젝트] 윌리드"
 subtitle: 나중에 봐야지 해놓고 까먹는 걸 방지하는 서비스
-thumbnail: "assets/img/willread-1.png"
+platform : "iOS, Android"
+feature-img: "assets/img/willread-1.png"
 tags: UI UX
 order: 1
 ---
