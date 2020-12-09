@@ -1,9 +1,62 @@
 .site-footer {
-  @extend %padding-regular;
-  display: inline-block;
+  // @extend %padding-regular;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   width: 100%;
-  color: lighten($text-color, 30%);
-  font-size: 0.9em;
   background-color: #fafafa;
+  padding: 32px 0;
+
+  span {
+    color: $primary-color;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 700;
+  }
+
+  .email {
+    color: $text-secondary;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .link-group {
+    display: flex;
+    margin-bottom: 16px;
+
+    a {
+      height: 40px;
+      width: 40px;
+      background-color: $input-primary;
+      border-radius: 16px;
+      margin-right: 16px;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      img {
+        height: 70%;
+        width: 70%;
+      }
+    }
+  }
+
+  .divider {
+    border-bottom: 1px solid $border-color;
+    width: 378px;
+    margin-bottom: 8px;
+  }
+
+  .copyright {
+    color: $text-primary;
+    opacity: 0.3;
+    font-size: 14px;
+  }
 }
