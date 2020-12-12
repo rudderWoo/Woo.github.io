@@ -42,8 +42,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
   font-weight: 700;
+  color: $text-primary;
   line-height: 1.2;
   margin: 0.67em 0;
+  color: 
   a {
     color: $text-color;
   }
@@ -101,8 +103,10 @@ dd {
     margin-left: 2em;
 }
 p, ol, ul, dl, .math-display {
-  line-height: 1.5;
-  margin-bottom: 1em;
+  line-height: 1.8;
+  margin-bottom: 16px;
+  letter-spacing: -0.009em;
+  color: #2F2F35;
 }
 // KaTeX math display
 .math-display {
