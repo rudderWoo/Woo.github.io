@@ -63,8 +63,10 @@ h4 {
   font-size: 1.15em;
 }
 blockquote {
-    border-left: 2px solid;
-    padding: 1em 1em;
+    border-left: 4px solid $primary-color;
+    padding: 4px 0;
+    padding-left: 24px;
+    background-color: #FAFAFA;
 }
 blockquote p:last-child,
 footer p:last-child {
@@ -96,6 +98,13 @@ pre,
 samp {
   margin: 1em 0;
 }
+
+code {
+  color: $primary-color;
+  background-color: $border-color;
+  border-radius: 8px;
+  padding: 4px 6px;
+}
 dt {
   font-weight: bold;
 }
@@ -104,6 +113,7 @@ dd {
 }
 p, ol, ul, dl, .math-display {
   line-height: 1.8;
+  margin-top: 16px;
   margin-bottom: 16px;
   letter-spacing: -0.009em;
   color: #2F2F35;

@@ -14,9 +14,9 @@ layout: default
         <div class= "work-info">
           <h3 class="work-card-title">{{ work.title }}</h3>
           <p class="work-card-subtitle">{{ work.subtitle }}</p>
-          <p class="work-card-descripition">
-            {{ work.content | truncatewords: 20 | strip_html }}
-          </p>
+          <!-- <p class="work-card-descripition">
+            {{ work.content | truncatewords: 32 | strip_html }}
+          </p> -->
           <ul class="work-card-tags">
             {% for tags in work.tags %}
               <li> #{{ tags }} </li>
