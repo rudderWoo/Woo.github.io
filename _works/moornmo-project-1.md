@@ -1,7 +1,7 @@
 ---
 layout : work
-title: "[무른모] MES 데이터 시각화 UI 기획/디자인"
-subtitle: 사용자가 원하는 데이터를 구성하고 보여주기
+title: "사용자가 원하는 데이터를 구성하고 보여주기"
+subtitle: "[무른모] MES 데이터 시각화 UI 기획하고 디자인하기"
 platform : "Web"
 feature-img: "assets/img/works/moornmo-1/1.png"
 tags: UI UX 기획
