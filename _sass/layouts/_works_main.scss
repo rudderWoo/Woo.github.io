@@ -1,5 +1,8 @@
 .works-wrapper {
     padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .card-wrapper {
 
@@ -33,6 +36,7 @@
                     font-size: 24px;
                     margin-top: 0px;
                     margin-bottom: 8px;
+                    word-break: keep-all;
                 }
 
                 .work-card-subtitle {
@@ -65,6 +69,26 @@
                 }
             }
         }
+    }
+}
+
+.more {
+    margin: 56px auto;
+    padding: 24px 32px;
+    color: $primary-color;
+    font-size: 24px;
+    font-weight: 500;
+    transition: box-shadow .3s, transform .3s;
+    border-radius: 16px;
+    border: 1px solid $primary-color;
+
+    i {
+        margin-left: 4px;
+    }
+
+    &:hover {
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+        transform: translateY(-2px);
     }
 }
 
