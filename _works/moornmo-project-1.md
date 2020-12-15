@@ -18,7 +18,7 @@ order: 1
 
 <br>
 
-![기존 데이터 시각화 UI](/Woo.github.io/assets/img/works/moornmo-1/2.png)
+![기존 데이터 시각화 UI](/assets/img/works/moornmo-1/2.png)
 <figcaption>구 프로덕트에서 제공되고 있던 데이터 시각화 UI</figcaption>
 
 <br>
@@ -38,7 +38,7 @@ order: 1
 <br>
 
 
-![문제 해결 프로세스](/Woo.github.io/assets/img/works/moornmo-1/4.png)
+![문제 해결 프로세스](/assets/img/works/moornmo-1/4.png)
 <figcaption>고객사에서 원하는 문제 해결 프로세스</figcaption>
 
 <br>
@@ -59,7 +59,7 @@ order: 1
 
 제공하고자 시각화 자료들을 아무 생각없이 리스트 하다보니 일정한 패턴이 눈에 걸리기 시작했다. 
 
-![지표 이름 패턴](/Woo.github.io/assets/img/works/moornmo-1/3.png)
+![지표 이름 패턴](/assets/img/works/moornmo-1/3.png)
 <figcaption>지표들의 이름에서 보이는 일정한 패턴</figcaption>
 
 <br>
@@ -68,7 +68,7 @@ order: 1
 
 모든 데이터는 **행 `row`과 열 `column`**로 구성되어 있다. 데이터 한 `row`가 가지고 있는 속성들이 `column`이라고 생각하면 된다. 예를 들어서 아래 생산에 대해서 가지고 있는 데이터를 살펴보자.
 
-![생산실적 데이터 예시](/Woo.github.io/assets/img/works/moornmo-1/5.png)
+![생산실적 데이터 예시](/assets/img/works/moornmo-1/5.png)
 <figcaption>생산실적 데이터 예시</figcaption>
 
 <br>
@@ -77,7 +77,7 @@ order: 1
 
 또, 우리는 보고자하는 것에 따라 B를 정할 수가 있는데, 이는 **A에 따라 `grouping` 한 데이터끼리 계산되고 가공될 수 있는 값**이 된다. 예를 들면 위 상황에서 **B는 생산량이나 생산 점유율**이다. 불량 데이터도 마찬가지였다.
 
-![불량실적 데이터 예시](/Woo.github.io/assets/img/works/moornmo-1/6.png)
+![불량실적 데이터 예시](/assets/img/works/moornmo-1/6.png)
 <figcaption>불량실적 데이터 예시</figcaption>
 
 <br>
@@ -88,7 +88,7 @@ order: 1
 
 추가적으로, 지표의 목적이 비교인지 추이인지에 따라서 크게 두 갈래로 갈라질 수 있었다. 예를 들면 **[작업자별 생산량 비교], [특정 작업자의 생산량 추이]**이다. 비교지표는 여러 작업자들에 대해서 생산량을 비교할 수 있는 자료일 것이고, 추이지표는 특정 작업자에 대해서 일정 기간에 대한 생산량 변화를 확인할 수 있는 자료이다. 물론 여기서 특정 작업자는 여러 명일 수도 있었다. 이런 패턴에 따라서 그래서 생산수량과 불량 수랑에 대해서 뽑을수 있는 시각화 자료를 리스트 해보니 아래와 같았다.
 
-![패턴에 따른 제공 가능한 지표 수 리스팅](/Woo.github.io/assets/img/works/moornmo-1/7.png)
+![패턴에 따른 제공 가능한 지표 수 리스팅](/assets/img/works/moornmo-1/7.png)
 <figcaption>패턴에 따른 제공 가능한 지표 수 리스팅</figcaption>
 
 <br>
@@ -112,7 +112,7 @@ order: 1
 
 UI에서 데이터 시각화를 할때는 가공된 데이터의 가시성도 중요하지만 유저가 원하는 데이터를 손쉽게 필터링 할 수 있게하는 것이 중요했다.
 
-![기존 데이터 시각화 UI](/Woo.github.io/assets/img/works/moornmo-1/8.png)
+![기존 데이터 시각화 UI](/assets/img/works/moornmo-1/8.png)
 <figcaption>세부 메뉴에서는 상단 서치바의 검색 조건을 통해 조회할 수 있도록 했다.</figcaption>
 
 <br>
@@ -121,15 +121,15 @@ UI에서 데이터 시각화를 할때는 가공된 데이터의 가시성도 �
 
 <br>
 
-![기존 데이터 시각화 UI](/Woo.github.io/assets/img/works/moornmo-1/13.png)
+![기존 데이터 시각화 UI](/assets/img/works/moornmo-1/13.png)
 
 
-![기존 데이터 시각화 UI](/Woo.github.io/assets/img/works/moornmo-1/11.png)
+![기존 데이터 시각화 UI](/assets/img/works/moornmo-1/11.png)
 <figcaption>대시보드에서는 컴포넌트의 footer 쪽에서 조회할 수 있도록 했다.</figcaption>
 
 <br>
 
-![기존 데이터 시각화 UI](/Woo.github.io/assets/img/works/moornmo-1/12.png)
+![기존 데이터 시각화 UI](/assets/img/works/moornmo-1/12.png)
 <figcaption>또한, 변화 추이를 보는 경우에는 가공된 데이터의 덩어리 크기를 선택하게 해줘야했다.</figcaption>
 
 <br>
@@ -138,19 +138,19 @@ UI에서 데이터 시각화를 할때는 가공된 데이터의 가시성도 �
 
 <br>
 
-![툴팁](/Woo.github.io/assets/img/works/moornmo-1/16.png)
+![툴팁](/assets/img/works/moornmo-1/16.png)
 <figcaption>정확한 수치를 확인하기 좋은 가시성이 높은 툴팁을 활용</figcaption>
 
 <br>
 
 특수한 경우들도 있었는데 데이터가 찍힌 타임스템프를 가지고 시간별 빈도를 보여줄 수 있는 형태도 존재했고, 게이지 차트를 통해 전체에 대한 비율을 확인 할 수 있는 형태도 있었다. 
 
-![기존 데이터 시각화 UI](/Woo.github.io/assets/img/works/moornmo-1/10.png)
+![기존 데이터 시각화 UI](/assets/img/works/moornmo-1/10.png)
 <figcaption>게이지 차트를 활용한 컴포넌트</figcaption>
 
 <br>
 
-![기존 데이터 시각화 UI](/Woo.github.io/assets/img/works/moornmo-1/14.png)
+![기존 데이터 시각화 UI](/assets/img/works/moornmo-1/14.png)
 <figcaption>시간별 빈도를 보여줄 수 있는 대시보드 컴포넌트</figcaption>
 
 
@@ -158,7 +158,7 @@ UI에서 데이터 시각화를 할때는 가공된 데이터의 가시성도 �
 
 이렇게 만들어진 컴포넌트들을 자유롭게 조합하여 고객사가 원하는 대시보드의 형태를 빠르게 만들어낼 수 있다.
 
-![기존 데이터 시각화 UI](/Woo.github.io/assets/img/works/moornmo-1/15.png)
+![기존 데이터 시각화 UI](/assets/img/works/moornmo-1/15.png)
 <figcaption>조합을 통해 만들어진 대시보드</figcaption>
 
 <br>
