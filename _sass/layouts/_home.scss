@@ -44,11 +44,11 @@
             }
 
             li:before {
-                content: '■'; 
+                content: '●'; 
                 vertical-align: middle;
                 display: inline-block;
                 margin-top: -3px;
-                font-size: 6px;
+                font-size: 4px;
                 margin-right: 12px;
             }
         }
